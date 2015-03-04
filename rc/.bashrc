@@ -14,8 +14,9 @@ stty stop undef
 # Prompt format
 PS1="[\h \W]\$ "
 
-# Use nvm
+# Use node.js
 source ~/.nv/nvm.sh
+nvm use 0
 
 # Git config
 git config --global color.ui true
